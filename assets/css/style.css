@@ -910,8 +910,13 @@ input {
   z-index: 99;
   inset: 0 6.25vw auto;
   padding: 0 1.563vw;
+<<<<<<< HEAD
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(75px);
+=======
+  background: rgba(0, 0, 0, 0.5);
+ 
+>>>>>>> 8f897f1 (Initial commit with updated code)
   border-radius: 0px 0px 20px 20px;
   display: flex;
   align-items: center;
@@ -1015,7 +1020,11 @@ input {
   }
 }
 .jo-header-nav nav a {
+<<<<<<< HEAD
   color: var(--black);
+=======
+  color: var(--white);
+>>>>>>> 8f897f1 (Initial commit with updated code)
   font-size: clamp(13px, 0.833vw, 16px);
   height: clamp(70px, 3.89vw, 74px);
   display: grid;
@@ -2017,6 +2026,7 @@ input {
     max-width: 315px;
   }
 }
+<<<<<<< HEAD
 .jo-video-card:hover::before {
   opacity: 1;
 }
@@ -2032,6 +2042,9 @@ input {
   opacity: 0;
   transition: 0.4s ease;
 }
+=======
+
+>>>>>>> 8f897f1 (Initial commit with updated code)
 .jo-video-card__img {
   width: 100%;
   object-fit: contain;
@@ -2073,10 +2086,14 @@ input {
   padding-top: 1px;
   color: var(--white);
 }
+<<<<<<< HEAD
 .jo-video-card__btn:hover {
   background-color: var(--white);
   color: var(--tt-pink);
 }
+=======
+ 
+>>>>>>> 8f897f1 (Initial commit with updated code)
 .jo-video-card__premium-tag {
   width: 50px;
   aspect-ratio: 1/1;
@@ -2110,9 +2127,14 @@ input {
   margin-bottom: 4px;
   display: inline-block;
 }
+<<<<<<< HEAD
 .jo-video-card__title:hover {
   color: var(--tt-pink);
 }
+=======
+ 
+
+>>>>>>> 8f897f1 (Initial commit with updated code)
 .jo-video-card__infos {
   color: var(--white);
   font-weight: 300;
@@ -2535,7 +2557,11 @@ input {
   }
 }
 .jo-footer-top .logo {
+<<<<<<< HEAD
   width: 211px;
+=======
+  width: 400px;
+>>>>>>> 8f897f1 (Initial commit with updated code)
 }
 @media screen and (max-width: 1199px) {
   .jo-footer-top .logo {
@@ -4754,4 +4780,40 @@ input {
 .jo-blog-comment-form button i {
   font-size: 22px;
   padding-top: 3px;
+<<<<<<< HEAD
 }/*# sourceMappingURL=style.css.map */
+=======
+}/*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+.ticker {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #000;
+  color: white;
+  padding: 6px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 9999;
+}
+
+.ticker-wrapper {
+  display: flex;
+  width: max-content;
+  animation: ticker-animation 25s linear infinite;
+}
+@keyframes ticker-animation {
+  from {
+      transform: translateX(0);
+  }
+  to {
+      transform: translateX(-50%);
+  }
+}
+>>>>>>> 8f897f1 (Initial commit with updated code)
